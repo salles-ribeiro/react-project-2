@@ -1,0 +1,102 @@
+.resumo-pedido {
+  background: #f9fafb;
+  border-radius: 12px;
+  padding: 1.5rem;
+  height: fit-content;
+}
+
+.resumo-pedido h2 {
+  font-size: 1.1rem;
+  margin: 0 0 1.25rem;
+}
+
+.campo-com-botao {
+  margin-bottom: 1rem;
+}
+
+.campo-com-botao label {
+  display: block;
+  font-size: 0.85rem;
+  color: #374151;
+  margin-bottom: 0.35rem;
+}
+
+.campo-com-botao__linha {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.campo-com-botao__linha input {
+  flex: 1;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.campo-com-botao__linha button {
+  padding: 0.6rem 1rem;
+  background: #111827;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.resumo-pedido__valores {
+  margin: 1.25rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.resumo-pedido__valores > div {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  color: #374151;
+}
+
+.resumo-pedido__total {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-top: 1px solid #e5e7eb;
+  padding-top: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.resumo-pedido__total > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.resumo-pedido__total small {
+  color: #6b7280;
+  font-size: 0.75rem;
+}
+
+.resumo-pedido__finalizar {
+  width: 100%;
+  background: #111827;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.85rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.resumo-pedido__finalizar:hover {
+  background: #000;
+}
+
+.resumo-pedido__pagamento {
+  text-align: center;
+  font-size: 0.75rem;
+  color: #6b7280;
+  margin-top: 0.75rem;
+}

@@ -1,0 +1,271 @@
+.dashboard {
+  --cor-azul-escuro: #1f2937;
+  --cor-fundo-pagina: #e5e7eb;
+  --cor-cinza-cartao: #d9d9d9;
+  --cor-texto-secundario: #6b7280;
+  --cor-texto-claro: #d1d5db;
+
+  min-height: 100vh;
+  background: var(--cor-fundo-pagina);
+  color: var(--cor-azul-escuro);
+  font-family: system-ui, sans-serif;
+}
+
+.dashboard * {
+  box-sizing: border-box;
+}
+
+.dashboard h1,
+.dashboard h2,
+.dashboard h3,
+.dashboard h4,
+.dashboard h5,
+.dashboard p {
+  margin: 0;
+}
+
+.dashboard a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.conteudo-centralizado {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+
+/* Banner */
+.banner {
+  background: var(--cor-azul-escuro);
+  color: #fff;
+}
+
+.banner-conteudo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+
+.banner-texto {
+  max-width: 520px;
+}
+
+.banner-etiqueta {
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--cor-texto-claro);
+}
+
+.banner h1 {
+  margin: 12px 0 16px;
+  font-size: 44px;
+  line-height: 1.1;
+}
+
+.banner h1 span {
+  font-weight: 400;
+}
+
+.banner p {
+  color: var(--cor-texto-claro);
+  line-height: 1.5;
+}
+
+.banner-botoes {
+  display: flex;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.banner-ilustracao {
+  color: #3b4a63;
+}
+
+/* Botões */
+.dashboard .botao {
+  padding: 12px 24px;
+  border: 1.5px solid transparent;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: inherit;
+  text-align: center;
+  cursor: pointer;
+}
+
+.dashboard .botao-claro {
+  background: #fff;
+  color: var(--cor-azul-escuro);
+}
+
+.dashboard .botao-contorno {
+  background: transparent;
+  color: #fff;
+  border-color: #fff;
+}
+
+.dashboard .botao-escuro {
+  background: var(--cor-azul-escuro);
+  color: #fff;
+}
+
+/* Conteúdo principal */
+.conteudo-principal {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.conteudo-principal h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.titulo-com-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.titulo-com-link a {
+  font-size: 13px;
+  text-decoration: underline;
+}
+
+/* Categorias */
+.grade-categorias {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 16px;
+}
+
+.cartao-categoria {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 24px 8px;
+  background: var(--cor-cinza-cartao);
+  border-radius: 8px;
+  font-size: 13px;
+}
+
+/* Produtos */
+.grade-produtos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.cartao-produto {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.produto-imagem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 180px;
+  background: var(--cor-cinza-cartao);
+}
+
+.produto-detalhes {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 16px;
+}
+
+.produto-detalhes small {
+  font-size: 11px;
+  color: var(--cor-texto-secundario);
+}
+
+.produto-detalhes h3 {
+  font-size: 15px;
+}
+
+.produto-detalhes .botao {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 13px;
+}
+
+/* Convite para criar conta */
+.convite-criar-conta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 32px;
+  background: var(--cor-cinza-cartao);
+  border-radius: 8px;
+}
+
+.convite-criar-conta h2 {
+  margin-bottom: 8px;
+}
+
+.convite-criar-conta p {
+  max-width: 420px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Benefícios */
+.grade-beneficios {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.grade-beneficios h4 {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.grade-beneficios p {
+  font-size: 12px;
+  color: var(--cor-texto-secundario);
+}
+
+
+.rodape-conteudo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rodape-marca {
+  font-size: 20px;
+  color: #fff;
+}
+
+.rodape-colunas {
+  display: flex;
+  gap: 64px;
+}
+
+.rodape-colunas h5 {
+  font-size: 13px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.rodape-colunas a {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.rodape-direitos {
+  margin-top: 32px;
+  font-size: 11px;
+}

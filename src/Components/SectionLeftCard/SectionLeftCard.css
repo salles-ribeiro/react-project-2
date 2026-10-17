@@ -1,0 +1,25 @@
+#section-left-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5vh;
+}
+#rounded-icon {
+    height: 10vh;
+    border-radius: 50%;
+    border:1px solid white;
+    width: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section-left-titles h1 {
+    font-size: 14px;
+    color: white;
+}
+
+#section-left-titles p {
+    font-size: 10px;
+    color: rgb(184, 182, 182);
+}

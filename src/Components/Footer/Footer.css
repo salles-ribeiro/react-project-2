@@ -1,0 +1,51 @@
+.rodape {
+  background: #1f2937;
+  color: #d1d5db;
+  padding: 40px 0 24px;
+  font-size: 12px;
+}
+
+.rodape p,
+.rodape h5 {
+  margin: 0;
+}
+
+.rodape-conteudo,
+.rodape-direitos {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.rodape-conteudo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rodape-marca {
+  font-size: 20px;
+  color: #fff;
+}
+
+.rodape-colunas {
+  display: flex;
+  gap: 64px;
+}
+
+.rodape-colunas h5 {
+  font-size: 13px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.rodape-colunas a {
+  display: block;
+  margin-bottom: 6px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.rodape .rodape-direitos {
+  margin-top: 32px;
+  font-size: 11px;
+}

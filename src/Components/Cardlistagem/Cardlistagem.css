@@ -1,0 +1,77 @@
+/* Card de produto: estilos dos componentes CardProduto, CardImagem,
+   CardTitulo, CardNota, CardPreco e CardAcao.
+   Usa as variáveis (--lb-*) definidas em .lb no Listagembody.css. */
+
+/* CardProduto */
+.lb-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: var(--lb-branco);
+  border-radius: 12px;
+}
+
+/* CardImagem */
+.lb-card__imagem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 190px;
+  color: var(--lb-escuro);
+  background: var(--lb-superficie);
+}
+
+/* Corpo do card */
+.lb-card__corpo {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 16px 18px 18px;
+}
+
+/* CardTitulo */
+.lb-card__categoria {
+  font-size: 13px;
+  color: var(--lb-texto-suave);
+}
+
+.lb-card__nome {
+  margin: 4px 0 6px;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+/* CardNota */
+.lb-card__nota {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.lb-estrelas {
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: var(--lb-escuro);
+}
+
+.lb-card__nota-valor {
+  font-size: 13px;
+  color: var(--lb-texto-suave);
+}
+
+/* CardPreco */
+.lb-card__preco {
+  margin: 12px 0 14px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* CardAcao */
+.lb-card .lb-botao {
+  margin-top: auto;
+}
+
+#image-card-products {
+  width: 70%;
+}

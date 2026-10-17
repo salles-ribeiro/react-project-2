@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+#section-create-account {
+    display: flex;
+}
+#section-left-form {
+    width: 30vw;
+    height: 100vh;
+    background-color: #1E2D49;
+}
+#section-left-logo img {
+    width: 15vw;
+}
+#section-left-logo {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#section-left-text {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#section-left-text h1 {
+    color: white;
+    margin-top: 2vh;
+}
+
+#section-left-text h1 {
+    font-size: 22px;
+    margin-bottom: 5vh;
+}
+#section-left-text p {
+    font-size: 12px;
+    margin-bottom: 5vh;
+    color: rgb(196, 195, 195);
+}
+#hrsson {
+    width: 100%;
+    text-align: center;
+    margin-top: 4vh;
+}
+#hrsson hr {
+    width: 85%;
+    margin-left: 2vw;
+    background-color: gray;
+    border: none;
+    height: 1px;
+}

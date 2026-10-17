@@ -1,0 +1,121 @@
+#create-account-right {
+    width: 100%;
+}
+#container-account-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#container-account-titles {
+    margin-left: 2vw;
+    margin-top: 6vh;
+
+}
+#container-account-titles h1 {
+    color: #1E2D49;
+    font-size: 22px;
+    
+}
+#container-account-titles p {
+    color: rgb(163, 162, 162);
+    font-size: 12px;
+}
+#container-account-icon{
+    margin-right: 2vw;
+    margin-top: 6vh;
+    display: flex;
+    gap: 10px;
+}
+
+.container-inputs-account {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.create-account-inputs label {
+    color: #1E2D49;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 1vh;
+}
+.create-account-inputs {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-top: 3vh;
+}
+.create-account-inputs input {
+    width: 35vw;
+    height: 6vh;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid  gray;
+    outline:none ;
+}
+#container-checkbox p{
+    font-size: 12px;
+    color: gray;
+}
+#container-checkbox a {
+    font-size: 12px;
+    color: #1E2D49;
+}
+
+#container-checkbox {
+    display: flex;
+    gap: 12px;
+    height: 10vh;
+    align-items: center;
+    padding-left: 4vh;
+}
+
+#container-button-cadastro  {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container-button-cadastro button {
+    background-color:#1E2D49 ;
+    width: 74vw;
+    height: 7vh;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+}
+
+#container-divisor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 5vh;
+  
+}
+#container-divisor hr {
+    flex: 1;
+    margin-left: 2vw;
+    margin-right: 2vw;
+  
+}
+#container-possui-conta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 4vh;
+}
+#container-possui-conta p{
+    font-size: 12px;
+    color: gray;
+}
+#container-possui-conta a {
+    font-size: 12px;
+    color: #1E2D49;
+    text-decoration: none;
+    font-weight: bold;
+
+}

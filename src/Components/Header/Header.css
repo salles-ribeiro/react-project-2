@@ -1,0 +1,59 @@
+/* Cabeçalho */
+.cabecalho {
+  background: #f3f4f6;
+}
+.conteudo-centralizado {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  
+}
+.conteudo-centralizado a{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.conteudo-centralizado  div{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+.cabecalho-topo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 14px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 18px;
+}
+
+.campo-busca {
+  flex: 1;
+  height: 38px;
+  padding: 0 14px;
+  border: 1.5px solid var(--cor-azul-escuro);
+  border-radius: 6px;
+  background: #fff;
+}
+
+.menu {
+  background: #d1d5db;
+}
+
+.menu-links {
+  display: flex;
+  gap: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 13px;
+}
+
+.logo-imagem {
+  height: 35px;
+  width: auto;
+}

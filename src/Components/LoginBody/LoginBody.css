@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter Variable", system-ui, sans-serif;
+}
+
+#logo-image img {
+    width: 20vw;
+    margin-top: 5vh;
+}
+
+#login-body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#login-form {
+    background-color: #dfdfe0;
+    width:30vw ;
+    height: 85vh;
+    border-radius: 10px;
+}
+#logo-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+#login-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#login-input h1 {
+    color: #1E293B;
+    margin-top: 2vh;
+    font-weight: 500;
+    font-size: 28px;
+}
+.login-input {
+    width: 25vw;
+    height: 6vh;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+    border:1.5px solid #1E293B;
+}
+
+#esqueceu-senha {
+    display: flex;
+    align-self: flex-start;
+    margin-left: 3vw;
+    font-size: 13px;
+    color: #6B7280;
+
+}
+#login-button {
+    width: 25vw;
+    height:7vh ;
+    background-color: #1E293B;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    margin-bottom: 5vh;
+}
+
+#divider {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#divider hr {
+    flex: 1;
+}
+.button-icons{
+    width: 8vw;
+    height: 5vh;
+}
+#button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 2vh;
+}
+#cadastre-se-agora {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+
+}
+#cadastre-se-agora p {
+    font-size: 12px;
+}
+#cadastre-se-agora span {
+    font-weight: 600;
+    color: rgb(50, 50, 50);
+}
