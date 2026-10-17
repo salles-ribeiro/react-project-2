@@ -108,10 +108,10 @@ export default function Listagembody({
     setProdutosAPI((lista) => {
       const copia = [...lista];
 
-      if (order === "Menor preço") {
+      if (order === "Menor preço") {git
         return copia.sort((a, b) => Number(a.preco) - Number(b.preco));
       }
-
+git
       if (order === "Maior preço") {
         return copia.sort((a, b) => Number(b.preco) - Number(a.preco));
       }
